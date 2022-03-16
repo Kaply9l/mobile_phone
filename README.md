@@ -1,5 +1,5 @@
 # README
-![Unit Tests & Lint](https://github.com/vladstpnv54/watch_rails/workflows/Unit%20Tests%20&%20Lint/badge.svg)
+![Unit Tests & Lint](https://github.com/Kaply9l/mobile_phone/workflows/Unit%20Tests%20&%20Lint/badge.svg)
 
 # watch_rails
 ## Require
