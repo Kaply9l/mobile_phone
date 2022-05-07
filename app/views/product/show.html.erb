@@ -39,8 +39,10 @@
 
               <div class="flexslider">
                 <ul class="slides">
-                  <li data-thumb="<%= asset_path 's-1.jpg' %>">
-                    <div class="thumb-image"> <img src="<%= asset_path 's-1.jpg' %>" data-imagezoom="true" class="img-responsive" alt=""/> </div>
+                  <li data-thumb="<%= asset_path @product.img %>">
+                    <div href="product/<%= @product.id%>" class="thumb-image">
+                      <img data-imagezoom="true" <%= image_tag(@product.img, alt: "", class: "img-responsive") %>
+                    </div>
                   </li>
                   <li data-thumb="<%= asset_path 's-2.jpg' %>">
                     <div class="thumb-image"> <img src="<%= asset_path 's-2.jpg' %>" data-imagezoom="true" class="img-responsive" alt=""/> </div>
@@ -195,23 +197,6 @@
 
         <% end %>
 
-      </div>
-      <div class="col-md-3 prdt-right">
-        <div class="w_sidebar">
-          <section  class="sky-form">
-            <h4>Categories</h4>
-            <div class="row1 scroll-pane">
-              <div class="col col-4">
-                <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>All Accessories</label>
-              </div>
-              <div class="col col-4">
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Women Watches</label>
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Kids Watches</label>
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Men Watches</label>
-              </div>
-            </div>
-          </section>
-        </div>
       </div>
       <div class="clearfix"> </div>
     </div>

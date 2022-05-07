@@ -11,7 +11,6 @@ class CreateGalleries < ActiveRecord::Migration[5.2]
             INSERT INTO galleries
             (id, product_id , img)
             VALUES
-            (1, 2, 's-1.jpg'),
             (2, 2, 's-2.jpg'),
             (3, 2, 's-3.jpg')
     SQL

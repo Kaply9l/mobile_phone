@@ -46,6 +46,10 @@
                     <div class="has-feedback">
                       <%= form.label :img %> <br>
                       <%= form.file_field :img, class: "" %> <br>
+
+                      <%= form.label :galleries %> <br>
+                      <%= form.file_field :galleries, :multiple => true, class: "" %> <br>
+
                       <%= form.submit class: "" %> <br>
                       <% end %>
                     </div>
