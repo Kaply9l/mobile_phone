@@ -11,6 +11,26 @@ class ProductController < ApplicationController
     set_page_options
   end
 
+  def edit
+    @product = Product.find(params[:id])
+    set_page_options
+  end
+
+  def update
+    @product = Product.find(params[:id])
+    if params['product']['img'].nil?
+      params['product']['img'] = 'no_image.jpg'
+    else
+      image_load
+    end
+
+    if @product.update(product_params)
+      redirect_to @product
+    else
+      render 'edit'
+    end
+  end
+
   def new
     @product = Product.new
   end

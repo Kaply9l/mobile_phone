@@ -7,7 +7,7 @@ GIT
       i18n (>= 1.8.11, < 2)
 
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     actioncable (5.2.6.2)
       actionpack (= 5.2.6.2)
@@ -296,6 +296,8 @@ GEM
     ruby-progressbar (1.11.0)
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
+    sass-rails (6.0.0)
+      sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
       ffi (~> 1.9)
     sassc (2.4.0-x64-mingw32)
@@ -400,7 +402,7 @@ DEPENDENCIES
   rubocop (~> 1.18)
   rubocop-rails (~> 2.11)
   rubocop-rspec
-  sassc-rails (>= 2.1.0)
+  sass-rails (>= 2.1.0)
   shoulda-matchers
   simple_form
   turbolinks (~> 5)

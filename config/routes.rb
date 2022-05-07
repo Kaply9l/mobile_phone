@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   devise_for :users, controllers: { omniauth_callbacks: 'omniauth_callbacks' }
 
   get 'products/index'
-  resources :product, only: %i[new edit show destroy create]
+  resources :product, only: %i[new edit update show destroy create]
 
   resources :category, only: [:show]
 
