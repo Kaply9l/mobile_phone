@@ -18,12 +18,6 @@ class ProductController < ApplicationController
 
   def update
     @product = Product.find(params[:id])
-    if params['product']['img'].nil?
-      params['product']['img'] = 'no_image.jpg'
-    else
-      image_load
-    end
-
     if @product.update(product_params)
       redirect_to @product
     else
@@ -80,7 +74,7 @@ class ProductController < ApplicationController
   private
 
   def product_params
-    params.require(:product).permit(:title, :description, :img, :price, :category_id)
+    params.require(:product).permit(:title, :content, :description, :img, :price, :category_id)
   end
 
   def product_save
