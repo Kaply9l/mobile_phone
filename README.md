@@ -3,7 +3,7 @@
 
 # watch_rails
 ## Require
-* Ruby 2.6.5
+* Ruby 2.6.9
 ### PostgreSQL installation
 * sudo apt install postgresql
 * sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres';"
