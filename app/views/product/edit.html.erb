@@ -38,6 +38,10 @@
                 <%= form.label :price %><br>
                 <%= form.number_field :price, min: 0, class: "" %>
               </div>
+              <div class="form-group has-feedback">
+                <%= form.label :old_price %><br>
+                <%= form.number_field :old_price, class: "" %>
+              </div>
               <div class="has-feedback">
                 <%= form.label :category_id %><br>
                 <%= form.number_field :category_id, min: 1, max: 14, class: "" %>

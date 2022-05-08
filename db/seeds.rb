@@ -16,10 +16,17 @@ end
 
 apple = Category.create(title: 'Apple', bytitle: 'Apple', keywords: 'Apple', description: 'Apple')
 
+asus = Category.create(title: 'Asus', bytitle: 'Asus', keywords: 'Asus', description: 'Asus')
+
 honor = Category.create(title: 'HONOR', bytitle: 'HONOR', keywords: 'HONOR', description: 'HONOR')
+
+huawei = Category.create(title: 'HUAWEI', bytitle: 'HUAWEI', keywords: 'HUAWEI', description: 'HUAWEI')
+
+nokia = Category.create(title: 'Nokia', bytitle: 'Nokia', keywords: 'Nokia', description: 'Nokia')
 
 samsung = Category.create(title: 'Samsung', bytitle: 'Samsung', keywords: 'Samsung', description: 'Samsung')
 
+xiaomi = Category.create(title: 'Xiaomi', bytitle: 'Xiaomi', keywords: 'Xiaomi', description: 'Xiaomi')
 
 # - - - - - - - -
 
@@ -27,8 +34,8 @@ samsung = Category.create(title: 'Samsung', bytitle: 'Samsung', keywords: 'Samsu
 product_attributes = [
   {
     category_id: '1',
-    title: 'Apple iPhone SE 2020 64 GB white',
-    bytitle: 'apple iphone se 2020 64 gb white',
+    title: 'Apple iPhone SE 2020 64GB white',
+    bytitle: 'apple iphone se 2020 64gb white',
     content: '6x(2.5 ГГц), 3 Гб, 1 SIM, IPS, 1334x750, камера 12 Мп, NFC, 4G, GPS, 1821 мА*ч',
     price: 625,
     status: 1,
@@ -238,8 +245,8 @@ Li-Ion
 
   {
     category_id: '1',
-    title: 'Apple iPhone SE 2020 64 GB black',
-    bytitle: 'apple iphone se 2020 64 gb black',
+    title: 'Apple iPhone SE 2020 64GB black',
+    bytitle: 'apple iphone se 2020 64gb black',
     content: '6x(2.5 ГГц), 3 Гб, 1 SIM, IPS, 1334x750, камера 12 Мп, NFC, 4G, GPS, 1821 мА*ч',
     price: 625,
     status: 1,
@@ -449,8 +456,8 @@ Li-Ion
 
   {
     category_id: '1',
-    title: 'Apple iPhone SE 2020 128 GB black',
-    bytitle: 'apple iphone se 2020 128 gb black',
+    title: 'Apple iPhone SE 2020 128GB black',
+    bytitle: 'apple iphone se 2020 128gb black',
     content: '6x(2.5 ГГц), 3 Гб, 1 SIM, IPS, 1334x750, камера 12 Мп, NFC, 4G, GPS, 1821 мА*ч',
     price: 700,
     status: 1,
@@ -660,8 +667,8 @@ Li-Ion
 
   {
     category_id: '1',
-    title: 'Apple iPhone 11 64 GB white',
-    bytitle: 'apple iphone 11 64 gb white',
+    title: 'Apple iPhone 11 64GB white',
+    bytitle: 'apple iphone 11 64gb white',
     content: '6x(2.65 ГГц), 4 Гб, 1 SIM, IPS, 1792x828, камера 12+12 Мп, NFC, 4G, GPS, 3110 мА*ч',
     price: 755,
     status: 1,
@@ -886,8 +893,8 @@ USB Power Delivery
 
   {
     category_id: '1',
-    title: 'Apple iPhone 11 64 GB green',
-    bytitle: 'apple iphone 11 64 gb green',
+    title: 'Apple iPhone 11 64GB green',
+    bytitle: 'apple iphone 11 64gb green',
     content: '6x(2.65 ГГц), 4 Гб, 1 SIM, IPS, 1792x828, камера 12+12 Мп, NFC, 4G, GPS, 3110 мА*ч',
     price: 755,
     status: 1,
@@ -1113,8 +1120,8 @@ USB Power Delivery
 
   {
     category_id: '1',
-    title: 'Apple iPhone 12 Mini 64 GB black',
-    bytitle: 'Apple iPhone 12 Mini 64 GB black',
+    title: 'Apple iPhone 12 Mini 64GB black',
+    bytitle: 'Apple iPhone 12 Mini 64GB black',
     content: '6x(2.99 ГГц), 4 Гб, 1 SIM, OLED, 2340x1080, камера 12+12 Мп, NFC, 5G, GPS, 2227 мА*ч',
     price: 845,
     status: 1,
@@ -1328,8 +1335,8 @@ Li-Ion
   },
   {
     category_id: '1',
-    title: 'Apple iPhone 12 Mini 64 GB green',
-    bytitle: 'Apple iPhone 12 Mini 64 GB green',
+    title: 'Apple iPhone 12 Mini 64GB green',
+    bytitle: 'Apple iPhone 12 Mini 64GB green',
     content: '6x(2.99 ГГц), 4 Гб, 1 SIM, OLED, 2340x1080, камера 12+12 Мп, NFC, 5G, GPS, 2227 мА*ч ',
     price: 845,
     status: 1,
@@ -1543,8 +1550,8 @@ Li-Ion
   },
   {
     category_id: '1',
-    title: 'Apple iPhone 12 Mini 128 GB green',
-    bytitle: 'Apple iPhone 12 Mini 128 GB green',
+    title: 'Apple iPhone 12 Mini 128GB green',
+    bytitle: 'Apple iPhone 12 Mini 128GB green',
     content: '6x(2.99 ГГц), 4 Гб, 1 SIM, OLED, 2340x1080, камера 12+12 Мп, NFC, 5G, GPS, 2227 мА*ч',
     price: 920,
     status: 1,
@@ -1760,8 +1767,8 @@ Li-Ion
 
   {
     category_id: '1',
-    title: 'Apple iPhone 13 256 GB blue',
-    bytitle: 'Apple iPhone 13 256 GB blue',
+    title: 'Apple iPhone 13 256GB blue',
+    bytitle: 'Apple iPhone 13 256GB blue',
     content: '6x(1.8 ГГц, 3.2 ГГц), 1 SIM, OLED, 2532х1170, камера 12+12 Мп, NFC, 5G, GPS',
     price: 1485,
     status: 1,
@@ -2180,8 +2187,8 @@ Li-Ion
 
   {
     category_id: '1',
-    title: 'Apple iPhone 13 Pro Max 256 GB silver',
-    bytitle: 'Apple iPhone 13 Pro Max 256 GB silver',
+    title: 'Apple iPhone 13 Pro Max 256GB silver',
+    bytitle: 'Apple iPhone 13 Pro Max 256GB silver',
     content: '6x(1.8 ГГц, 3.2 ГГц), 1 SIM, OLED, 2778×1284, камера 12+12+12 Мп, NFC, 5G, GPS',
     price: 1900,
     status: 1,
@@ -2385,10 +2392,18 @@ Li-Ion
   },
 
 
+
+
+
+
+
+
+
+
   {
-    category_id: '2',
-    title: 'Honor 50 Lite 128 GB silver',
-    bytitle: 'honor 50 lite 128 gb silver',
+    category_id: '3',
+    title: 'Honor 50 Lite 128GB silver',
+    bytitle: 'honor 50 lite 128gb silver',
     content: '8x(2 ГГц, 1.8 ГГц), 6 Гб, 2 SIM, IPS, 2376x1080, камера 64+8+2+2 Мп, NFC, 4G, GPS, 4300 мА*ч',
     price: 330,
     status: 1,
@@ -2560,9 +2575,9 @@ HUAWEI SuperCharge 66 Вт
   },
 
   {
-    category_id: '2',
-    title: 'Honor 50 Lite 128 GB black',
-    bytitle: 'Honor 50 Lite 128 GB black',
+    category_id: '3',
+    title: 'Honor 50 Lite 128GB black',
+    bytitle: 'Honor 50 Lite 128GB black',
     content: '8x(2 ГГц, 1.8 ГГц), 6 Гб, 2 SIM, IPS, 2376x1080, камера 64+8+2+2 Мп, NFC, 4G, GPS, 4300 мА*ч',
     price: 330,
     status: 1,
@@ -2735,9 +2750,9 @@ HUAWEI SuperCharge 66 Вт
   },
 
   {
-    category_id: '2',
-    title: 'Honor 50 Lite 128 GB blue',
-    bytitle: 'Honor 50 Lite 128 GB blue',
+    category_id: '3',
+    title: 'Honor 50 Lite 128GB blue',
+    bytitle: 'Honor 50 Lite 128GB blue',
     content: '8x(2 ГГц, 1.8 ГГц), 6 Гб, 2 SIM, IPS, 2376x1080, камера 64+8+2+2 Мп, NFC, 4G, GPS, 4300 мА*ч',
     price: 330,
     status: 1,
@@ -2909,9 +2924,9 @@ HUAWEI SuperCharge 66 Вт
   },
 
   {
-    category_id: '2',
-    title: 'Honor X8 128 GB silver',
-    bytitle: 'Honor X8 128 GB silver',
+    category_id: '3',
+    title: 'Honor X8 128GB silver',
+    bytitle: 'Honor X8 128GB silver',
     content: '8x(2.4 ГГц, 1.9 ГГц), 6 Гб, 2 SIM, IPS, 2388x1080, камера 64+5+2+2 Мп, NFC, 4G, GPS, FM, 4000 мА*ч',
     price: 415,
     status: 1,
@@ -3097,9 +3112,9 @@ SuperCharge
   },
 
   {
-    category_id: '2',
-    title: 'Honor X8 128 GB black',
-    bytitle: 'Honor X8 128 GB black',
+    category_id: '3',
+    title: 'Honor X8 128GB black',
+    bytitle: 'Honor X8 128GB black',
     content: '8x(2.4 ГГц, 1.9 ГГц), 6 Гб, 2 SIM, IPS, 2388x1080, камера 64+5+2+2 Мп, NFC, 4G, GPS, FM, 4000 мА*ч',
     price: 415,
     status: 1,
@@ -3286,9 +3301,9 @@ SuperCharge
   },
 
   {
-    category_id: '2',
-    title: 'Honor 50 128 GB green',
-    bytitle: 'Honor 50 128 GB green',
+    category_id: '3',
+    title: 'Honor 50 128GB green',
+    bytitle: 'Honor 50 128GB green',
     content: '8x(2.4 ГГц, 2.3 ГГц, 1.9 ГГц), 6 Гб, 2 SIM, OLED, 2340x1080, камера 108+8+2+2 Мп, NFC, 5G, GPS, 4300 мА*ч',
     price: 520,
     status: 1,
@@ -3469,9 +3484,9 @@ SuperCharge
   },
 
   {
-    category_id: '2',
-    title: 'Honor 50 128 GB black',
-    bytitle: 'Honor 50 128 GB black',
+    category_id: '3',
+    title: 'Honor 50 128GB black',
+    bytitle: 'Honor 50 128GB black',
     content: '8x(2.4 ГГц, 2.3 ГГц, 1.9 ГГц), 6 Гб, 2 SIM, OLED, 2340x1080, камера 108+8+2+2 Мп, NFC, 5G, GPS, 4300 мА*ч',
     price: 520,
     status: 1,
@@ -3652,9 +3667,9 @@ SuperCharge
 
 
   {
-    category_id: '2',
-    title: 'Honor 50 128 GB green',
-    bytitle: 'Honor 50 128 GB green',
+    category_id: '3',
+    title: 'Honor 50 128GB green',
+    bytitle: 'Honor 50 128GB green',
     content: '8x(2.4 ГГц, 2.3 ГГц, 1.9 ГГц), 8 Гб, 2 SIM, OLED, 2340x1080, камера 108+8+2+2 Мп, NFC, 5G, GPS, 4300 мА*ч',
     price: 550,
     status: 1,
@@ -3835,9 +3850,9 @@ SuperCharge
 
 
   {
-    category_id: '2',
-    title: 'Honor 50 128 GB black',
-    bytitle: 'Honor 50 128 GB black',
+    category_id: '3',
+    title: 'Honor 50 128GB black',
+    bytitle: 'Honor 50 128GB black',
     content: '8x(2.4 ГГц, 2.3 ГГц, 1.9 ГГц), 8 Гб, 2 SIM, OLED, 2340x1080, камера 108+8+2+2 Мп, NFC, 5G, GPS, 4300 мА*ч',
     price: 550, #Faker::Commerce.price,
     status: 1,
@@ -4018,9 +4033,9 @@ SuperCharge
 
 
   {
-    category_id: '2',
-    title: 'Honor 50 256 GB silver',
-    bytitle: 'Honor 50 256 GB silver',
+    category_id: '3',
+    title: 'Honor 50 256GB silver',
+    bytitle: 'Honor 50 256GB silver',
     content: '8x(2.4 ГГц, 2.3 ГГц, 1.9 ГГц), 8 Гб, 2 SIM, OLED, 2340x1080, камера 108+8+2+2 Мп, NFC, 5G, GPS, 4300 мА*ч',
     price: 610, #Faker::Commerce.price,
     status: 1,
@@ -4201,9 +4216,9 @@ SuperCharge
 
 
   {
-    category_id: '2',
-    title: 'Honor 50 256 GB black',
-    bytitle: 'Honor 50 256 GB black',
+    category_id: '3',
+    title: 'Honor 50 256GB black',
+    bytitle: 'Honor 50 256GB black',
     content: '8x(2.4 ГГц, 2.3 ГГц, 1.9 ГГц), 8 Гб, 2 SIM, OLED, 2340x1080, камера 108+8+2+2 Мп, NFC, 5G, GPS, 4300 мА*ч',
     price: 610, #Faker::Commerce.price,
     status: 1,
@@ -4385,8 +4400,8 @@ SuperCharge
 
   {
     category_id: '3',
-    title: 'Samsung Galaxy A03 Core 32 GB blue',
-    bytitle: 'samsung galaxy a03 core 32 gb blue',
+    title: 'Samsung Galaxy A03 Core 32GB blue',
+    bytitle: 'samsung galaxy a03 core 32gb blue',
     content: '8x(1.6 ГГц), 2 Гб, 2 SIM, TN, 1600x720, камера 8 Мп, 4G, GPS, FM, 5000 мА*ч',
     price: 135, #Faker::Commerce.price,
     status: 1,
