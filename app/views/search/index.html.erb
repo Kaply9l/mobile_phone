@@ -26,8 +26,11 @@
                   <div class="product-bottom">
                     <h3><%=prod.title %></h3>
                     <p>Explore Now</p>
-                    <h4>$ <%=prod.price %></h4>
-                    <del>$ <%=prod.old_price %></del>
+                    <h4>$ <%=prod.price %>
+                    <% if prod.old_price %>
+                      <small><del>$ <%= prod.old_price %></del></small>
+                    <% end %>
+                    </h4>
                   </div>
                   <div class="srch srch1">
                   </div>
@@ -39,23 +42,6 @@
         <% else %>
           <h3>Nothing to show</h3>
         <% end %>
-      </div>
-      <div class="col-md-3 prdt-right">
-        <div class="w_sidebar">
-          <section  class="sky-form">
-            <h4>Catogories</h4>
-            <div class="row1 scroll-pane">
-              <div class="col col-4">
-                <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>All Accessories</label>
-              </div>
-              <div class="col col-4">
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Women Watches</label>
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Kids Watches</label>
-                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Men Watches</label>
-              </div>
-            </div>
-          </section>
-        </div>
       </div>
       <div class="clearfix"></div>
     </div>
