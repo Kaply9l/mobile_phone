@@ -683,9 +683,11 @@ img.zoom-img {
 }
 a.mask {
     text-decoration: none;
-    overflow: hidden;
+    //overflow: hidden;
     display: block;
     padding: 12px 0px;
+	max-width: 240px;
+	max-height: 250px;
 }
 .product-left:hover .product-bottom h3{
 	color:#73B6E1;
