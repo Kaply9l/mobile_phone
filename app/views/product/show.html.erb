@@ -44,13 +44,14 @@
                       <img data-imagezoom="true" <%= image_tag(@product.img, alt: "", class: "img-responsive") %>
                     </div>
                   </li>
-                  <li data-thumb="<%= asset_path 's-2.jpg' %>">
+ <!--                 <li data-thumb="<%= asset_path 's-2.jpg' %>">
                     <div class="thumb-image"> <img src="<%= asset_path 's-2.jpg' %>" data-imagezoom="true" class="img-responsive" alt=""/> </div>
                   </li>
                   <li data-thumb="<%= asset_path 's-3.jpg' %>">
                     <div class="thumb-image"> <img src="<%= asset_path 's-3.jpg' %>" data-imagezoom="true" class="img-responsive" alt=""/> </div>
                   </li>
                 </ul>
+-->
               </div>
 
             <% end %>
@@ -115,7 +116,7 @@
         </div>
         <div class="tabs">
           <ul class="menu_drop">
-            <li class="item1"><a href="#"><img src="<%= asset_path 'arrow.png' %>" alt="">Description</a>
+            <li class="item1"><a href="#"><img src="<%= asset_path 'arrow.png' %>" alt="">Characteristics</a>
               <ul>
                 <li class="subitem1"><a href="#"><%= @product.description %></a></li>
               </ul>

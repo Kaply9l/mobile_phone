@@ -31,7 +31,7 @@
                     <%= form.text_field :content, class: "" %>
                   </div>
                     <div class="form-group has-feedback">
-                      <%= form.label :description %><br>
+                      <%= form.label :characteristics %><br>
                       <%= form.text_field :description, class: "" %>
                     </div>
                     <div class="form-group has-feedback">
@@ -46,10 +46,6 @@
                     <div class="has-feedback">
                       <%= form.label :img %> <br>
                       <%= form.file_field :img, class: "" %> <br>
-
-                      <%= form.label :galleries %> <br>
-                      <%= form.file_field :galleries, :multiple => true, class: "" %> <br>
-
                       <%= form.submit class: "" %> <br>
                       <% end %>
                     </div>

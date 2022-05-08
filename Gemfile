@@ -5,7 +5,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.9'
 
-gem 'carrierwave'
+gem 'paperclip'
+gem 'carrierwave', '~> 1.0'
 gem "mini_magick"
 gem 'active_model_serializers'
 gem 'activestorage', '~> 5.2'

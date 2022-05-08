@@ -6,13 +6,5 @@ class CreateGalleries < ActiveRecord::Migration[5.2]
       t.integer :product_id
       t.string :img
     end
-
-    insert <<-SQL.squish
-            INSERT INTO galleries
-            (id, product_id , img)
-            VALUES
-            (2, 2, 's-2.jpg'),
-            (3, 2, 's-3.jpg')
-    SQL
   end
 end

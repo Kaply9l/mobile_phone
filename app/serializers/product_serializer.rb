@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class ProductSerializer < ActiveModel::Serializer
-  attributes :id, :title, :bytitle, :content, :price,
+  attributes :id, :title, :bytitle, :content, :price, :type,
              :old_price, :description, :short_title
 
   belongs_to :category
