@@ -23,5 +23,10 @@ Rails.application.routes.draw do
     end
   end
 
+  get 'cart/index' => 'decoration#new'
+  get 'category/cart/index' => 'decoration#new'
+  get 'product/cart/index' => 'decoration#new'
+  resources 'decoration'
+
   root 'main#index'
 end

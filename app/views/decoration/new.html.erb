@@ -1,0 +1,66 @@
+<%= form_with model: @decoration, url:{:action => 'create'}, local: true do |form| %>
+
+  <div class="prdt">
+    <div class="container">
+      <div class="prdt-top">
+        <div class="col-md-12">
+          <h2>Registration Order</h2>
+
+          <div class="register-main">
+            <div class="col-md-7 account-left">
+              <div class="form-group has-feedback">
+                <%= form.label :Your_Last_Name %><br>
+                <%= form.text_field :lastname, class: "" %>
+              </div>
+              <div class="form-group has-feedback">
+                <%= form.label :Your_location %><br>
+                <%= form.text_field :country, class: "" %>
+              </div>
+
+                  <div class="table-responsive">
+                    <table class="table table-hover table-striped">
+                      <thead>
+                      <tr>
+                        <th>Наименование</th>
+                        <th>Кол-во</th>
+                        <th>Цена</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <% quantity = [] %>
+                      <% sum = [] %>
+                      <% products.map do |item| %>
+                        <tr>
+                          <td><%= link_to(item.product.title, item.product) %></td>
+                          <td>
+                            <% quantity << item.quantity %><%= item.quantity %>шт.
+                          </td>
+                          <% pr = item.quantity * item.product.price %>
+                          <% sum << pr %>
+                          <td><%= item.product.price %> </td>
+                        </tr>
+                      <% end %>
+                      <tr>
+                        <td>Итого:</td>
+                        <td colspan="4" class="text-right cart-qty"><%=quantity.sum %> шт.</td>
+                      </tr>
+
+                      <tr>
+                        <td>На сумму:</td>
+                        <td colspan="4" class="text-right cart-sum"><%= format("%.2f", sum.sum) %> $</td>
+                      </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+              <br>
+              <div class="has-feedback">
+                <%= form.submit  class: "" %> <br>
+<% end %>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

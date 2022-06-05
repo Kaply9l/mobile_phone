@@ -8,6 +8,7 @@ class User < ApplicationRecord
          :omniauthable, omniauth_providers: [:facebook]
 
   has_one :cart, dependent: :destroy
+  has_one :decoration
 
   has_many :authorizations
 
