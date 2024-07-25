@@ -1,7 +1,6 @@
 # README
 ![Unit Tests & Lint](https://github.com/Kaply9l/mobile_phone/workflows/Unit%20Tests%20&%20Lint/badge.svg)
 
-# watch_rails
 ## Require
 * Ruby 2.6.9
 ### PostgreSQL installation
